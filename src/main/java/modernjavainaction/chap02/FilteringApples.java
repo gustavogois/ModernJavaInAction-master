@@ -82,7 +82,7 @@ public class FilteringApples {
     return result;
   }
 
-  enum Color {
+  public enum Color {
     RED,
     GREEN
   }
