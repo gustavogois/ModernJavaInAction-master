@@ -100,4 +100,28 @@ Consumer<T>
 | BiConsumer<T, U>    | (T, U) -> void	 | ObjIntConsumer<T>, <BR>ObjLongConsumer<T>, <BR>ObjDoubleConsumer<T> |
 | BiFunction<T, U, R> | (T, U) -> R    | ToIntBiFunction<T, U>, <BR>ToLongBiFunction<T, U>, <BR>ToDoubleBiFunction<T, U> |
 
+### Exercises
 
+#### Functions
+
+##### Exercise 1 - Function:
+
+Given a list of integers, write a Java stream that doubles each integer in the list using the Function interface.
+
+[Task04](Task04Before.java)
+
+#### Exercises 2 - Supplier
+
+[Task05](Task05Before.java)
+
+#### Exercises 3 - UnaryOperator
+
+[Task06](Task06Before.java)
+
+#### Exercises 4 - BinaryOperator
+
+[Task07](Task07Before.java)
+
+#### Exercises 5 - BiPredicate
+
+[Task08](Task08Before.java)
